@@ -29,7 +29,7 @@ function App() {
   };
 
   return (
-    <div className="App" style={{ backgroundObject }}>
+    <div className="App" style={backgroundObject}>
       <QuoteBox
         quote={quote}
         getNewValues={getNewValues}

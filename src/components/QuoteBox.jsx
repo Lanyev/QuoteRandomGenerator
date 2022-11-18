@@ -1,4 +1,5 @@
 import QuoteButton from "./QuoteButton";
+
 const QuoteBox = ({ quote, getNewValues, backgroundObject, colorObject }) => {
   return (
     <article className="quoteBox">
